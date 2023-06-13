@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'ls -lt' | head |du -d 1 |sort -nr
+ls -t1 | head
