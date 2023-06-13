@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d ":". -fI,6 /etc/passwd | sort usr
+cut -d ":". -fI,6 /etc/passwd | sort 'usr'
