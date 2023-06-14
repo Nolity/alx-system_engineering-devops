@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d'\0' <(printf '%s\n' {a..z}) <(printf '%s\n' {a..z}) | grep -v 'oo'
+eval "$(printf '%s\n' {a..z}{a..z} | grep -Ev 'oo')"
