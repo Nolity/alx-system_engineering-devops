@@ -1,2 +1,2 @@
 #!/bin/bash
-echo decimal=$(echo "ibase=2; $binary" | bc)
+export BINARY=1010011100
