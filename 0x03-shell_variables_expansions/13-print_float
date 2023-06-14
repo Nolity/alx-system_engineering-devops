@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${NUM%.*}.`printf "%02d" "${NUM#*.}"`"
+number=$(printf "%.2f" "$NUM")
