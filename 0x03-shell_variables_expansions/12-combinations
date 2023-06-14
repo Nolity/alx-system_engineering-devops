@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in {a..z}; do for j in {a..z}; do [[ "$i$j" != "oo" ]] && echo "$i$j"; done; done
+for c in {a..z}{a..z}; do [[ "$c" != "oo" ]] && echo "$c"; done
